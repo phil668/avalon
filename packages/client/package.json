@@ -9,12 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.37"
+    "@unocss/reset": "^0.62.4",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
+    "postcss-px-to-viewport-8-plugin": "^1.2.5",
     "typescript": "^5.5.3",
+    "unocss": "^0.62.4",
     "vite": "^5.4.1",
+    "vite-plugin-pwa": "^0.20.5",
     "vue-tsc": "^2.0.29"
   }
 }
